@@ -19,3 +19,14 @@ query {
   }
 }
 ```
+
+- Roots Queries describe how connections are made
+
+```graphql
+query {
+  user(id: "234") {
+    age
+    name
+  }
+}
+```
